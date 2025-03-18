@@ -1,6 +1,6 @@
 <?php
 
-namespace Tualo\Office\PaperVote\Commands;
+namespace Tualo\Office\VoteManagerReports\Commands;
 
 use Garden\Cli\Cli;
 use Garden\Cli\Args;
