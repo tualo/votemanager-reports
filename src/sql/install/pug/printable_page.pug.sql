@@ -1,0 +1,10 @@
+DELIMITER ;
+SET FOREIGN_KEY_CHECKS=0;
+insert ignore into ds_pug_templates (name,id,note,template) values ('printable_page','printable_page',from_base64('cHJpbnRhYmxlX3BhZ2U='),from_base64( 'ZG9jdHlwZSBodG1sCmJsb2NrIGNvbmZpZwogICAgLSB2YXIgcGFnZVRpdGxlID0gIlBhZ2UgVGl0
+bGUiCmh0bWwobGFuZz0nZGUnKQogICAgaGVhZAogICAgICAgIGluY2x1ZGUgcHJpbnRhYmxlX3Bh
+Z2VfY3NzCiAgICAgICAgbWV0YShjaGFyc2V0PSd1dGYtOCcpCiAgICAgICAgdGl0bGU9cGFnZVRp
+dGxlCiAgICAgICAgZWFjaCBzdHlsZXNoZWV0IGluIHN0eWxlc2hlZXRzCiAgICAgICAgICAgIHN0
+eWxlPXN0eWxlc2hlZXQuY3NzICAKICAgIGJvZHkoc3R5bGU9Im1hcmdpbi1sZWZ0OiAyY207bWFy
+Z2luLXJpZ2h0OiAyY207IikKICAgICAgICBibG9jayBjb250ZW50Cg==') );
+
+SET FOREIGN_KEY_CHECKS=1;

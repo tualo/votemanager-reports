@@ -20,6 +20,8 @@ class InstallPUGs extends CommandLineInstallSQL  implements ICommandline
     }
     public static $shortName  = 'votemanagerreports-pugs';
     public static $files = [
+        'install/pug/printable_page.pug'             => 'install printable_page pug',
+        'install/pug/printable_page_css.pug'             => 'install printable_page_css pug',
         'install/pug/wm_berichte.pug'                               => 'install wm_berichte pug',
         'install/pug/wm_berichte_php.pug'                           => 'install wm_berichte_php pug',
         'install/pug/wm_berichte_abschlussbericht_gesamt.pug'       => 'install wm_berichte_abschlussbericht_gesamt pug',
