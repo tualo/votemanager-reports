@@ -26,6 +26,8 @@ class InstallPUGs extends CommandLineInstallSQL  implements ICommandline
         'install/pug/wm_berichte_php.pug'                           => 'install wm_berichte_php pug',
         'install/pug/wm_berichte_abschlussbericht_gesamt.pug'       => 'install wm_berichte_abschlussbericht_gesamt pug',
 
+        'install/pug/wm_berichte_teilergebnis.pug'                  => 'install wm_berichte_teilergebnis pug',
+
         'install/pug/wm_berichte_tanboegen_tabelle.pug'             => 'install wm_berichte_tanboegen_tabelle pug',
         'install/pug/wm_berichte_tanboegen.pug'                     => 'install wm_berichte_tanboegen pug',
 
