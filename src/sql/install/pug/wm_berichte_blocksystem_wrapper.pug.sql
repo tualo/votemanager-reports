@@ -1,0 +1,8 @@
+DELIMITER ;
+SET FOREIGN_KEY_CHECKS=0;
+insert ignore into ds_pug_templates (name,id,note,template) values ('wm_berichte_blocksystem_wrapper','wm_berichte_blocksystem_wrapper',from_base64('d21fYmVyaWNodGVfYmxvY2tzeXN0ZW1fd3JhcHBlcg=='),from_base64( 'ZXh0ZW5kcyB3bV9iZXJpY2h0ZV93cmFwcGVyCmJsb2NrIGNvbnRlbnQKICAgIGVhY2ggcmVjb3Jk
+IGluIGRhdGEKICAgICAgICAtIHZhciB1c2Vibj1yZWNvcmQuYmxvY2tudW1iZXIKICAgICAgICAt
+IHZhciB1c2VzdD1yZWNvcmQud2FobHNjaGVpbnN0YXR1cwogICAgICAgIGluY2x1ZGUgd21fYmVy
+aWNodGVfYmxvY2tzeXN0ZW0=') );
+
+SET FOREIGN_KEY_CHECKS=1;
