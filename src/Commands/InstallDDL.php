@@ -23,7 +23,7 @@ class InstallDDL extends CommandLineInstallSQL  implements ICommandline
 
         'install/ddl/wm_berichte'                   => 'setup wm_berichte',
         'install/ddl/wm_berichte.data'              => 'setup wm_berichte.data',
-
+        'install/ddl/view_blocksystem_status'       => 'setup view_blocksystem_status',
 
     ];
 }

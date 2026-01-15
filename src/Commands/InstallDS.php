@@ -23,6 +23,7 @@ class InstallDS extends CommandLineInstallSQL  implements ICommandline
 
         'install/ds/ds_class'                               => 'setup ds_class',
         'install/ds/wm_berichte.ds'                         => 'setup wm_berichte.ds',
+        'install/ds/view_blocksystem_status.ds'             => 'setup view_blocksystem_status.ds',
 
 
 
