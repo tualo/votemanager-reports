@@ -1,6 +1,6 @@
 DELIMITER ;
 
-INSERT IGNORE INTO `wm_berichte` VALUES
+INSERT IGNORE INTO `wm_berichte` (id,name) VALUES
 ('wm_bekanntmachung','Bekanntmachung des Wahlausschusses - Wahlergebnis'),
 ('wm_berichte_abgewiesene_online','Protokolle Abgewiesene Online-Wähler'),
 ('wm_berichte_abschlussbericht_gesamt','Abschlussbericht - Gesamt'),
@@ -27,12 +27,12 @@ insert ignore into wm_berichte (id,name) values ('wm_erwartet','Protokoll Erwart
 
 
 
-INSERT IGNORE INTO `wm_berichte` VALUES
+INSERT IGNORE INTO `wm_berichte` (id,name) VALUES
 ('wm_berichte_losentscheid_stimmzettel','Losentscheide nach Stimmzettel'),
 ('wm_berichte_los_mindestsitze','Losentscheide nach Mindestsitz');
 
 
-INSERT IGNORE INTO `wm_berichte` VALUES
+INSERT IGNORE INTO `wm_berichte` (id,name) VALUES
 ('wm_berichte_erwartet_online','Protokoll Erwartet Online');
 
 
